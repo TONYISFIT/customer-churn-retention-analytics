@@ -1,0 +1,48 @@
+{
+  "logistic_regression": {
+    "cv_f1_mean": 0.4956,
+    "cv_f1_std": 0.026,
+    "test": {
+      "accuracy": 0.7275,
+      "precision": 0.6463,
+      "recall": 0.3985,
+      "f1": 0.493,
+      "roc_auc": 0.7675
+    }
+  },
+  "random_forest": {
+    "cv_f1_mean": 0.4075,
+    "cv_f1_std": 0.0306,
+    "test": {
+      "accuracy": 0.6975,
+      "precision": 0.5625,
+      "recall": 0.406,
+      "f1": 0.4716,
+      "roc_auc": 0.7233
+    }
+  },
+  "hist_gradient_boosting": {
+    "cv_f1_mean": 0.435,
+    "cv_f1_std": 0.0317,
+    "test": {
+      "accuracy": 0.705,
+      "precision": 0.5701,
+      "recall": 0.4586,
+      "f1": 0.5083,
+      "roc_auc": 0.7257
+    }
+  },
+  "xgboost": {
+    "cv_f1_mean": 0.4165,
+    "cv_f1_std": 0.045,
+    "test": {
+      "accuracy": 0.7075,
+      "precision": 0.5889,
+      "recall": 0.3985,
+      "f1": 0.4753,
+      "roc_auc": 0.7402
+    }
+  },
+  "best_model": "hist_gradient_boosting",
+  "random_state": 42
+}
